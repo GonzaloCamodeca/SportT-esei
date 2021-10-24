@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="SportT esei Registro">
+  <meta name="keywords" content="Formulario,Registro,Ingreso,Sign in,iniciar sesion">
+  <title>SporT-Esei Registro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+        <link rel="icon" href="/imagenes/ICONO.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://kit.fontawesome.com/bd3c82ea09.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/scss/estilo.css">
+</head>
+<header class="header">
+  <nav class="navbar navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-nav-scroll header header__nav bg-opacity-75">
+      <div id="top" class="container-fluid">
+        <a class="navbar-brand" href="/index.html"><img src="/imagenes/MenuIcon.jpg" alt="Iconito" class="icono img"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/paginas/Indumentaria.html">Indumentaria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/paginas/Accesorios.html">Accesorios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/paginas/Calzado.html">Calzado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/paginas/Register.html">Ingresa</a>
+            </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+  <section class="textos-header">
+    <h1>SportT Esei</h1>
+    <h2>Registro</h2>
+  </section>
+  <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-4.22,16.28 C149.99,150.00 349.20,-49.98 500.27,20.22 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #380036;"></path></svg>
+  </div>
+</header>
+<body class="grid-container">
+  <section class="algo"></section>
+  <section class="form-register">
+    <h4>Formulario Registro</h4>
+    <input class="controls ani caja1 wow animate__animated animate__zoomInUp" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls ani caja1 wow animate__animated animate__zoomInUp" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls ani caja1 wow animate__animated animate__zoomInUp" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+    <input class="controls ani caja1 wow animate__animated animate__zoomInUp" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+    <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+    <input class="botons" type="submit" value="Registrar">
+    <p><a href="#">¿Ya tengo Cuenta?</a></p>
+  </section>
+  <footer class="footer container-fluid">
+    <div class="contenedor-footer">
+        <div class="content-foo">
+            <h4>Phone</h4>
+            <p>8296312</p>
+        </div>
+        <div class="content-foo">
+            <h4>Email</h4>
+            <p>8296312</p>
+        </div>
+        <div class="content-foo">
+            <h4>Location</h4>
+            <p>8296312</p>
+        </div>
+    </div>
+    <h2 class="titulo-final">&copy; Gonza Design | Gonzalo Camodeca</h2>
+    <a href="https://www.facebook.com/gonza.camodeca/" target="_blanck">    
+      <i class="fab fa-facebook-square fa-2x"></i>
+    </a>
+    <a href="https://www.instagram.com/tiendasport.esei/" target=_blanck">  
+      <i class="fab fa-instagram fa-2x"></i> </a>
+</footer>
+  <script src="js/wow.min.js"></script>
+  <script>
+      new WOW().init();
+  </script>
+  <script src="/js/bootstrap.js"></script>
+</body>
+</html>
