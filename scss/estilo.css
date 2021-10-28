@@ -76,8 +76,8 @@ header {
   background: #000047;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(rgba(27, 180, 222, 0.55)), to(rgba(0, 0, 71, 0.55))), url(/imagenes/PortadaZapatillas.jpg);
-  background: linear-gradient(to right, rgba(27, 180, 222, 0.55), rgba(0, 0, 71, 0.55)), url(/imagenes/PortadaZapatillas.jpg);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(27, 180, 222, 0.55)), to(rgba(0, 0, 71, 0.55))), url(../imagenes/PortadaZapatillas.jpg);
+  background: linear-gradient(to right, rgba(27, 180, 222, 0.55), rgba(0, 0, 71, 0.55)), url(../imagenes/PortadaZapatillas.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-attachment: fixed;
@@ -175,7 +175,11 @@ a:hover {
   display: -ms-grid;
   display: grid;
   gap: 10px;
-      grid-template-areas: "header" "navbar" "sidebar" "main" "footer";
+      grid-template-areas: "header"
+ "navbar"
+ "sidebar"
+ "main"
+ "footer";
 }
 
 .header {
@@ -444,7 +448,11 @@ footer {
     display: -ms-grid;
     display: grid;
     gap: 10px;
-        grid-template-areas: "header" "navbar" "sidebar" "main" "footer";
+        grid-template-areas: "header"
+ "navbar"
+ "sidebar"
+ "main"
+ "footer";
   }
   .img:hover {
     opacity: 1;
