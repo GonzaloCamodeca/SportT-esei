@@ -1,3 +1,104 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+/*HMF = HEADER MAIN FOOTER*/
+nav {
+  text-align: right;
+  padding: 30px 20px 0 0;
+  background: transparent;
+  li {
+    padding: 10px;
+    font-weight: 300;
+  }
+}
+nav a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+}
+li a.active,
+li a:hover {
+  background: #000090;
+  transition: 0.5s;
+  border-radius: 10px;
+  text-decoration: white;
+}
+.titulos {
+  font-family: "Roboto", sans-serif;
+  background-color: blue;
+  color: $bg_white;
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+}
+.introduccion {
+  background-color: $bg_color;
+  color: $bg_white;
+  letter-spacing: 1px;
+  font-size: medium;
+  line-height: 25px;
+  margin: 20px;
+  padding: 10px;
+  border: 5px cornflowerblue groove;
+  overflow: auto;
+}
+.p {
+  @extend .introduccion;
+  width: 300px;
+  height: auto;
+  text-align: center;
+}
+header {
+  height: 570px;
+  background: hsl(240, 100%, 14%);
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(193, 78%, 49%, 0.55),
+      hsla(240, 100%, 14%, 0.55)
+    ),
+    url(../imagenes/PortadaZapatillas.jpg);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      hsla(193, 78%, 49%, 0.55),
+      hsla(240, 100%, 14%, 0.55)
+    ),
+    url(../imagenes/PortadaZapatillas.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.textos-header h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.textos-header h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+}
+header .textos-header {
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+/*MAIN*/
 @mixin tituloss{
   font-size: 30px;
   text-align: center;
@@ -203,4 +304,42 @@ color: #642a73;
 .servicio-ind p{
   font-weight: 300;
   text-align: justify;
+}
+/*FOOTER*/
+footer{
+  background: #414141;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenedor-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+  text-align: center;
+}
+
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px solid #af20d3;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.content-foo p{
+  color: #ccc;
+}
+
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #9e9797;
 }
