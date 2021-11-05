@@ -135,11 +135,14 @@ a:hover {
   height: 250px;
   opacity: 1;
   margin-left: 15%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5%;
 }
 
 .img:hover {
   opacity: 1;
-  border: whitesmoke solid 2px;
+  border: whitesmoke solid 10px;
 }
 
 .caja:hover {
@@ -431,6 +434,25 @@ footer {
   font-size: 24px;
   margin: 20px 0 0 0;
   color: #9e9797;
+}
+
+/**/
+.linea {
+  border-top: 5px solid #0077C0;
+  margin-bottom: 40px;
+}
+
+.contenedor-imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85%;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 3px;
 }
 
 /*Usar asi LAS MEDIA evita colapsos de superposicion*/

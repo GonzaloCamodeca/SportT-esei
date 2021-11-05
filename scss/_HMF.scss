@@ -113,10 +113,12 @@ a:hover {
   height: 250px;
   opacity: 1;
   margin-left: 15%;
+  object-fit: cover;
+  border-radius: 5%;
 }
 .img:hover {
-  opacity: 1;
-  border: $bg_white solid 2px;
+  opacity: 1 ;
+  border: $bg_white solid 10px;
 }
 .caja:hover {
   opacity: 1;
@@ -341,4 +343,18 @@ footer{
   font-size: 24px;
   margin: 20px 0 0 0;
   color: #9e9797;
+}
+/**/
+.linea{
+  border-top: 5px solid #0077C0;
+  margin-bottom: 40px;
+}
+
+.contenedor-imagenes{
+  display:flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius:3px;
 }
