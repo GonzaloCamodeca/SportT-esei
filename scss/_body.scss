@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*Colores*/
+$bg_color: teal;
+$bg_white: whitesmoke;
+$bg_fondo: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
 body {
   min-height: 100%;
   font-family: "Nanum Gothic", sans-serif;
   background-image: $bg_fondo;
 }
-/*Colores*/
-$bg_color: teal;
-$bg_white: whitesmoke;
-$bg_fondo: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
